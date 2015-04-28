@@ -46,6 +46,10 @@ private RecyclerView recyclerView;
 
 RecyclerView.ItemAnimator animator =new DefaultItemAnimator();
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
 
     @Override
     public void onClick(View v) {
